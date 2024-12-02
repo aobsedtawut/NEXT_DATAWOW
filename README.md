@@ -13,14 +13,17 @@ pnpm dev
 # or
 bun dev
 
+CRATEE FILE .ENV
+
+#PUT THIS
+NEXTAUTH_SECRET=98E3B2CC28F61492C6934531C828C
+NEXTAUTH_URL=http://localhost:3001/
+NEXT_PUBLIC_API_URL=http://localhost:6500
+
 
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-CRATE FILE .ENV 
-
-
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
